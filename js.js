@@ -49,7 +49,7 @@ const interval = setInterval(() => {
                 const order_number = getOrderName()
                 //https://silver.brandsmanago.pl
                 //http://localhost:3000/change_stocks
-             fetch('https://silver.brandsmanago.pl/change_stocks', {
+             fetch('https://silver.zooart.info/change_stocks', {
                 method: 'POST',
                 headers: {
                 'Accept': 'application/json',
