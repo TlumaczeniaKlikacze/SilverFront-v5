@@ -5,6 +5,11 @@ const buttons_silver_custom = [
         stock_goal:0,
         id:`silver_${(Math.random() + 1).toString(32).substring(2)}`
     },
+    {
+        name:'Zmień magazyny na m1!',
+        stock_goal:1,
+        id:`silver_${(Math.random() + 1).toString(32).substring(2)}`
+    },
    
 ]
 const el = document.createElement('div')
